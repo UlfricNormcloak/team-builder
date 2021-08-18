@@ -1,4 +1,5 @@
 import React from "react";
+import "./TeamMemberForm.css";
 
 export default function TeamForm(props) {
    const { values, update, submit } = props;
@@ -17,7 +18,7 @@ export default function TeamForm(props) {
        submit();
    };
    return (
-       <form className="form container" onSubmit={onSubmit}>
+       <form className="form-container" onSubmit={onSubmit}>
            <div className="form-group inputs">
              {/*////////3 Text Inputs Specified Below//////*/}
              <label>
