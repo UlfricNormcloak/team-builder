@@ -1,8 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+// const teamList = [
+//   {firstName: "John" , lastName: "Doe"},
+//   {firstName: "Sally" , lastName: "Johnson"},
+//   {firstName: "Tim" , lastName: "Smith"},
+//   {firstName: "Karen" , lastName: "Fisher"},
+// ]
+
+// function TeamForm() {
+//   const [formValues, setFormValues] = useState({ firstName: "", lastName: ""});
+//   const [teamMembers, setTeamMembers] = useState(teamList);
+// }
 
 ReactDOM.render(
   <React.StrictMode>
