@@ -5,14 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 // const teamList = [
-//   {firstName: "John" , lastName: "Doe"},
-//   {firstName: "Sally" , lastName: "Johnson"},
-//   {firstName: "Tim" , lastName: "Smith"},
-//   {firstName: "Karen" , lastName: "Fisher"},
+//   {name: "John" , email: "john@john.com", role: "Frontend Engineer" },
+//   {name: "Sally" , email: "sally@sally.com", role: "Backend Engineer" },
+//   {name: "Tim" , email: "tim@tim.com", role: "Designer" },
+//   {Name: "Karen" , email: "karen@karen.com", role: "Team Leader" },
 // ]
 
 // function TeamForm() {
-//   const [formValues, setFormValues] = useState({ firstName: "", lastName: ""});
+//   const [formValues, setFormValues] = useState({ name: "", email: "", role: "" });
 //   const [teamMembers, setTeamMembers] = useState(teamList);
 // }
 
